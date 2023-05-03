@@ -1,0 +1,16 @@
+
+Firstly if i am creating an api, i would ensure whether all the requirements are met.
+Planning: I would plan what is the desired things which my api should cater.
+Mapping: Just a rough picture or stages in which my work starts.
+Requirements: Checking the required classes,parameters,connections and process flow.
+Code: Later on will start with the coding part of it.
+Running: On completion of code a trial run is made whether its working or not by usage of swagger and postman.
+Testing and Updating: Checking with random data if its working properly and all the data is as per the requirement and makning changes as necessary. 
+Security: Lastly i would implement security which is offered by spring inorder to make it secure and reliable
+
+Secondly if i am using an api, i would check the following.
+Data:whether data is properly structured according to the column.
+DataType:Is proper datatype made in the required column.
+fields:Checking the mandatory and non mandatory fields.
+identifier:which filed of such data uniquely identifies the row.
+Security:Is this data reliable and capable of being changed by others etc.

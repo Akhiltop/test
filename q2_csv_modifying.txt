@@ -1,0 +1,28 @@
+How will you tackle the challenge above?
+initially i will decide whether to make it in a normal java project or maven or springboot.
+Later on will take help of opencsv library by way of importing it to read and write the csv.
+The major takle will be with reading of formula , normal values can be read easily.
+if i carefully observe i have a indication that formula starts with "="
+this acts as an indication for me that its a formula.
+Next if i see either it starts with the alphabet or a value.
+if it starts with the alphabet i would be looping until the end of the value , later takes the operation and goes to the next value or cell reference.
+cell reference values can be obtained by usage of maps or a new object so that i can get the value of the cell referenced and perform the operation.
+By this way i can get the required output and then writes the csv using writer methods of opencsv
+
+
+
+
+What type of errors you would you check for?
+As far i think the errors i may confront is 
+1.reference being not found or reference is blank.
+2.division errors if value is 0.
+3.circular reference i.e both cells depend on each other.
+4.the referenced cell should be of some value or else arithmetic operations cant be performed.
+5.dealing with type of value in java such as int,long,float,double etc.
+
+
+How might a user break your code?
+inorder to break my code, i think initially the user has to know my code base.
+If any loose queries are written in the backend it can cause security issues(such as searching data with
+blank may result in getting all the data in backend)
+improper security or authentication makes the user to go with various parts of the project etc.
